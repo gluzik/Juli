@@ -1,0 +1,54 @@
+@media (max-width: 920px) {
+
+.container {
+    max-width: 900px;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    &__list {
+        flex-direction: column;
+    }
+}
+
+.name {
+
+    &__block {
+        flex-direction: column-reverse;
+        text-align: center;
+
+        & img {
+            width: 80%;
+        }
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__btn {
+        
+    }
+}
+
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .header {
+
+        &__nav {
+            flex-direction: column;
+            text-align: center;
+
+            &-item {
+                padding: 15px;
+            }
+        }
+    }
+}
