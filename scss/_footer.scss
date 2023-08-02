@@ -1,0 +1,31 @@
+.footer {
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0 40px;
+    }
+
+    &__list {
+        & a {
+            margin-right: 50px;
+            text-align: center;
+
+            & img {
+                width: 30px;
+            }
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+    &__number {
+        color: #a52424;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 140%;
+        letter-spacing: 1.1px;
+    }
+}
